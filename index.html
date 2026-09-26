@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="श्रीहरिप्रिया आश्रम — श्रीहरिप्रिया संस्कृत वैदिक गुरुकुलम्">
+  <title>श्रीहरिप्रिया आश्रम | संस्कृत वैदिक गुरुकुलम्</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="top-mantra">
+    <span>।। श्रीमते रामानुजाय नमः ।।</span>
+    <span>।। श्रीवेदपुरुषाय नमः ।।</span>
+  </div>
+
+  <header class="site-header" id="siteHeader">
+    <div class="header-inner">
+      <button class="brand" data-page="home" aria-label="मुख्यपृष्ठ">
+        <span class="emblem" aria-hidden="true">
+          <span class="emblem-om">ॐ</span><span class="emblem-lotus">❀</span>
+        </span>
+        <span class="brand-text">
+          <strong>श्रीहरिप्रिया आश्रम</strong>
+          <small>श्रीहरिप्रिया संस्कृत वैदिक गुरुकुलम्</small>
+        </span>
+      </button>
+      <button class="menu-toggle" id="menuToggle" aria-label="मेनू खोलें" aria-expanded="false">☰</button>
+      <nav class="main-nav" id="mainNav" aria-label="मुख्य नेविगेशन">
+        <button class="nav-item active" data-page="home">🏠 <span>मुख्यपृष्ठ</span></button>
+        <button class="nav-item" data-page="ashram">🛕 <span>आश्रम</span></button>
+        <button class="nav-item" data-page="gurukul">🎓 <span>गुरुकुल</span></button>
+        <button class="nav-item" data-page="activities">🌿 <span>गतिविधियाँ</span></button>
+        <button class="nav-item" data-page="events">📅 <span>कार्यक्रम</span></button>
+        <button class="nav-item" data-page="library">📚 <span>पुस्तकालय</span></button>
+        <button class="nav-item" data-page="elibrary">📖 <span>ई-पुस्तकालय</span></button>
+        <button class="nav-item" data-page="publications">📜 <span>प्रकाशन</span></button>
+        <button class="nav-item" data-page="gallery">🖼️ <span>गैलरी</span></button>
+        <button class="nav-item" data-page="seva">🙏 <span>सेवा</span></button>
+        <button class="nav-item" data-page="donation">💰 <span>सहयोग/दान</span></button>
+        <button class="nav-item" data-page="contact">📞 <span>सम्पर्क</span></button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="app" tabindex="-1"></main>
+
+  <footer class="site-footer">
+    <div class="footer-pattern"></div>
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="emblem small"><span class="emblem-om">ॐ</span><span class="emblem-lotus">❀</span></span>
+        <div><h3>श्रीहरिप्रिया आश्रम</h3><p>श्रीहरिप्रिया संस्कृत वैदिक गुरुकुलम्</p></div>
+      </div>
+      <div class="footer-quotes">
+        <span>“वसुधैव कुटुम्बकम्”</span>
+        <span>“सर्वे भवन्तु सुखिनः”</span>
+      </div>
+      <div class="footer-links">
+        <button data-page="home">मुख्यपृष्ठ</button>
+        <button data-page="gurukul">गुरुकुल</button>
+        <button data-page="elibrary">ई-पुस्तकालय</button>
+        <button data-page="seva">सेवा</button>
+        <button data-page="contact">सम्पर्क</button>
+      </div>
+      <div class="copyright">© <span id="year"></span> श्रीहरिप्रिया आश्रम · श्रीहरिप्रिया सुरभारती सेवा ट्रस्ट</div>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
